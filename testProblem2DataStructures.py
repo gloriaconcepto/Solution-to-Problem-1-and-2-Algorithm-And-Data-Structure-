@@ -40,3 +40,5 @@ class TestProblem1DataStructures(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+# i suggest you use assertRaise instead of assertTrue when checking for files,
+# and secondly you did not test for a bad HTML tag so you should write the test 
